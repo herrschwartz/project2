@@ -8,6 +8,10 @@ type Bundle struct {
 	Root2 float64
 }
 
+const (
+	pi float64 = 3.1415
+)
+
 func main() {
 	var x, y, z float64 = 3, 30, 3
 	var pos, _ = quadratic(x, y, z)
@@ -17,6 +21,7 @@ func main() {
 	bundle.Root2 = 0
 
 	fmt.Println(pos)
+	fmt.Println(pi)
 
 }
 
